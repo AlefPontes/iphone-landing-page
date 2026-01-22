@@ -1,11 +1,52 @@
 import React from 'react';
+import Title from '../components/Title';
+import Cards from '../components/Card';
 
 const Highlights = () => {
+  const specs = [
+    {
+      img: {
+        src: 'public/img/IPHONE - OUT - 2025/titanium-design.jpg',
+        alt: 'iPhone Titanium',
+      },
+      title: { text: 'Titânio Premium', variant: 'secondary' },
+      subtitle:
+        'Estrutura em titânio de grau aeroespacial. O smartphone mais forte e leve.',
+    },
+    {
+      img: {
+        src: 'public/img/IPHONE - OUT - 2025/ios-features.jpg',
+        alt: 'IOS 26',
+      },
+      title: { text: 'IOS 26', variant: 'secondary' },
+      subtitle:
+        'O sistema operacional mais avançado do mundo com IA integrada.',
+    },
+    {
+      img: {
+        src: 'public/img/IPHONE - OUT - 2025/chip-a18-pro.jpg',
+        alt: 'Chip A18 Pro',
+      },
+      title: { text: 'A18 Pro', variant: 'gradient' },
+      subtitle: 'O chip mais poderoso em um smartphone',
+      list: [
+        'CPU 20% mais rápida',
+        'GPU 25% mais eficiente',
+        'Neural Engine com 16 núcleos',
+        'Ray Tracing acelerado por hardware',
+      ],
+    },
+  ];
+
   return (
     <section className="bg-black pb-20 px-6 " id="design">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-4">Design revolucionário</h2>
+          <Title
+            variant="secondary"
+            as="h2"
+            childrens={'Design revolucionário'}
+          ></Title>
           <p className="text-xl text-gray-400">
             Cada detalhe foi pensado para criar a melhor experiência.
           </p>
@@ -38,23 +79,28 @@ const Highlights = () => {
           </div>
         </div>
 
-        <div className="bg-gray-900 rounded-3xl p-12 mb-16" id="performance">
-          <h3 className="text-4xl font-bold mb-6 text-gradient">A18 Pro</h3>
-          <p className="text-gray-300 mb-6">
-            O chip mais poderoso em um smartphone
-          </p>
+        <div
+          className="bg-gray-900 rounded-3xl p-12 mb-16 grid grid-cols-2"
+          id="performance"
+        >
+          <div>
+            <h3 className="text-4xl font-bold mb-6 text-gradient">A18 Pro</h3>
+            <p className="text-gray-300 mb-6">
+              O chip mais poderoso em um smartphone
+            </p>
+            <ul className="space-y-3 text-gray-300">
+              <li>CPU 20% mais rápida</li>
+              <li>GPU 25% mais eficiente</li>
+              <li>Neural Engine com 16 núcleos</li>
+              <li>Ray Tracing acelerado por hardware</li>
+            </ul>
+          </div>
+
           <img
             className="w-full rounded-2xl mb-4"
             src="public/img/IPHONE - OUT - 2025/chip-a18-pro.jpg"
             alt="Chip A18"
           ></img>
-
-          <ul className="space-y-3 text-gray-300">
-            <li>CPU 20% mais rápida</li>
-            <li>GPU 25% mais eficiente</li>
-            <li>Neural Engine com 16 núcleos</li>
-            <li>Ray Tracing acelerado por hardware</li>
-          </ul>
         </div>
 
         <div id="camera" className="text-center">
