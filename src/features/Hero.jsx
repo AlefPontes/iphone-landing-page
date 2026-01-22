@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="relative min-h-[calc(100vh-80px)] overflow-hidden bg-black">
       <div className="absolute inset-0 z-0">
         <img
-          src="public/img/hero.jpg"
+          src="/img/hero.jpg"
           alt="Iphone 17 Pro"
           className="mx-auto h-full object-cover opacity-90"
         />

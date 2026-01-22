@@ -6,7 +6,7 @@ const Highlights = () => {
   const specs = [
     {
       img: {
-        src: 'public/img/titanium-design.jpg',
+        src: '/img/titanium-design.jpg',
         alt: 'iPhone Titanium',
       },
       title: { text: 'Titânio Premium', variant: 'secondary' },
@@ -15,7 +15,7 @@ const Highlights = () => {
     },
     {
       img: {
-        src: 'public/img/ios-features.jpg',
+        src: '/img/ios-features.jpg',
         alt: 'IOS 26',
       },
       title: { text: 'IOS 26', variant: 'secondary' },
@@ -24,7 +24,7 @@ const Highlights = () => {
     },
     {
       img: {
-        src: 'public/img/chip-a18-pro.jpg',
+        src: '/img/chip-a18-pro.jpg',
         alt: 'Chip A18 Pro',
       },
       title: { text: 'A18 Pro', variant: 'gradient' },
