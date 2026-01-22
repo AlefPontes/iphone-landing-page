@@ -24,7 +24,7 @@ const specs = [
 
 const Intro = () => {
   return (
-    <section className="bg-black py-20 px-6">
+    <section className="bg-black py-10 xl:py-20 px-6">
       <div className="max-w-5xl mx-auto text-center">
         <Title childrens={'iPhone 17 Pro'}></Title>
         <p className="text-2xl md:text-4xl mb-4 text-gradient font-bold">
@@ -43,8 +43,8 @@ const Intro = () => {
             size="lg"
           ></Button>
         </div>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-6 mx-auto max-w-5xl'>
-          <Cards specs={specs} padding='px-2 py-4'></Cards>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mx-auto max-w-5xl">
+          <Cards specs={specs} padding="px-2 py-4"></Cards>
         </div>
       </div>
     </section>

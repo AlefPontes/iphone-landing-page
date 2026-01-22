@@ -52,7 +52,7 @@ const Highlights = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-8 mb-16" 
+        <div className="flex flex-col sm:grid sm:grid-cols-2 gap-8 mb-16" 
             id="performance">
           <Cards
             specs={specs1}
@@ -61,7 +61,7 @@ const Highlights = () => {
           ></Cards>
 
           <div
-            className="bg-gray-900 rounded-3xl p-12 col-span-2 grid grid-cols-2"
+            className="bg-gray-900 rounded-3xl p-12 col-span-2 grid md:grid-cols-2 gap-6"
           >
             <div>
               <Title childrens={'A18 Pro'} variant="gradient"></Title>
@@ -69,14 +69,14 @@ const Highlights = () => {
                 childrens={'O chip mais poderoso em um smartphone'}
                 variant="text"
               ></Title>
-              <ul className="space-y-3 text-gray-300">
+              <ul className="text-left space-y-3 text-gray-300">
                 <li>CPU 20% mais rápida</li>
                 <li>GPU 25% mais eficiente</li>
                 <li>Neural Engine com 16 núcleos</li>
                 <li>Ray Tracing acelerado por hardware</li>
               </ul>
             </div>
-            <div>
+            <div className='flex items-center'>
               <img
                 className="w-full rounded-2xl"
                 src="/img/chip-a18-pro.jpg"

@@ -23,13 +23,13 @@ const Cameras = () => {
 
   return (
     <section id="camera" className='px-6'>
-      <div className="text-center flex flex-col gap-12 mb-16 max-w-7xl mx-auto">
+      <div className="text-center flex flex-col gap-12 max-w-7xl mx-auto">
         <Title
           childrens={'Sistema de câmera Pro avançado'}
           variant="secondary"
         ></Title>
 
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-3 gap-6">
           <Cards specs={cameras} textAlign="text-center"></Cards>
         </div>
       </div>

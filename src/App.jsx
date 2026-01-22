@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <main className="pt-20">
+      <main className="pt-8 sm:pt-20 mx-auto">
         <Hero />
         <Intro />
         <Highlights />

@@ -95,7 +95,7 @@ const Colors = () => {
         </div>
       </div>
 
-      <section className="flex gap-4 justify-center">
+      <section className="flex flex-col lg:flex-row gap-4 justify-center">
         {models.map((model, index) => (
           <div
             key={index}
