@@ -6,7 +6,7 @@ const Highlights = () => {
   const specs = [
     {
       img: {
-        src: 'public/img/IPHONE - OUT - 2025/titanium-design.jpg',
+        src: 'public/img/titanium-design.jpg',
         alt: 'iPhone Titanium',
       },
       title: { text: 'Titânio Premium', variant: 'secondary' },
@@ -15,7 +15,7 @@ const Highlights = () => {
     },
     {
       img: {
-        src: 'public/img/IPHONE - OUT - 2025/ios-features.jpg',
+        src: 'public/img/ios-features.jpg',
         alt: 'IOS 26',
       },
       title: { text: 'IOS 26', variant: 'secondary' },
@@ -24,7 +24,7 @@ const Highlights = () => {
     },
     {
       img: {
-        src: 'public/img/IPHONE - OUT - 2025/chip-a18-pro.jpg',
+        src: 'public/img/chip-a18-pro.jpg',
         alt: 'Chip A18 Pro',
       },
       title: { text: 'A18 Pro', variant: 'gradient' },
@@ -56,7 +56,7 @@ const Highlights = () => {
           <div className="bg-gray-900 rounded-3xl p-8">
             <img
               className="w-full rounded-2xl mb-4"
-              src="public/img/IPHONE - OUT - 2025/titanium-design.jpg"
+              src="public/img/titanium-design.jpg"
               alt="Iphone Titanium"
             ></img>
             <h3 className="font-bold mb-2 text-3xl">Titânio Premium</h3>
@@ -69,7 +69,7 @@ const Highlights = () => {
           <div className="bg-gray-900 rounded-3xl p-8">
             <img
               className="w-full rounded-2xl mb-4"
-              src="public/img/IPHONE - OUT - 2025/ios-features.jpg"
+              src="public/img/ios-features.jpg"
               alt="IOS 2025"
             ></img>
             <h3 className="font-bold mb-2 text-3xl">IOS 26</h3>
@@ -98,7 +98,7 @@ const Highlights = () => {
 
           <img
             className="w-full rounded-2xl mb-4"
-            src="public/img/IPHONE - OUT - 2025/chip-a18-pro.jpg"
+            src="public/img/chip-a18-pro.jpg"
             alt="Chip A18"
           ></img>
         </div>

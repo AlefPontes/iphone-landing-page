@@ -5,19 +5,19 @@ const Colors = () => {
     {
       id: 'blue',
       name: 'Titânio Azul',
-      image: 'public/img/IPHONE - OUT - 2025/iphone-blue.jpg',
+      image: 'public/img/iphone-blue.jpg',
       colorClass: 'bg-blue-500',
     },
     {
       id: 'silver',
       name: 'Titânio Natural',
-      image: 'public/img/IPHONE - OUT - 2025/iphone-silver.jpg',
+      image: 'public/img/iphone-silver.jpg',
       colorClass: 'bg-gray-300',
     },
     {
       id: 'orange',
       name: 'Titânio Laranja',
-      image: 'public/img/IPHONE - OUT - 2025/iphone-orange.jpg',
+      image: 'public/img/iphone-orange.jpg',
       colorClass: 'bg-orange-500',
     },
   ];
