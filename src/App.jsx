@@ -1,9 +1,9 @@
-import NavBar from './components/NavBar';
-import Hero from './components/Hero';
-import Intro from './components/Intro';
-import Highlights from './components/Highlights';
-import Colors from './components/Colors';
-import Footer from './components/Footer';
+import NavBar from './features/NavBar';
+import Hero from './features/Hero';
+import Intro from './features/Intro';
+import Highlights from './features/Highlights';
+import Colors from './features/Colors';
+import Footer from './features/Footer';
 
 const App = () => {
   return (
