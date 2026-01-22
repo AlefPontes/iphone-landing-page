@@ -30,7 +30,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 pt-20 px-8">
       <div className="max-w-6xl mx-auto mb-4">
-        <div className="flex flex-col md:flex-row justify-between">
+        <div className="flex flex-col md:flex-row justify-between gap-4">
           {sections.map((section) => (
             <div>
               <h3 className="mb-3 font-bold text-xl">{section.title}</h3>

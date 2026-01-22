@@ -2,12 +2,12 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[calc(100vh-80px)] overflow-hidden bg-black">
-      <div className="absolute inset-0 z-0">
+    <section className="relative xl:min-h-[calc(100vh-80px)] overflow-hidden bg-black">
+      <div className="xl:absolute inset-0 z-0">
         <img
-          src="/img/hero.jpg"
+          src="img/hero.jpg"
           alt="Iphone 17 Pro"
-          className="mx-auto h-full object-cover opacity-90"
+          className="mx-auto h-full opacity-90 object-cover"
         />
         <div className="absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/80"></div>
       </div>

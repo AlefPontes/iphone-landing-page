@@ -11,7 +11,7 @@ const links = [
 
 const NavBar = () => {
   return (
-    <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 h-20">
+    <nav className="hidden sm:block fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 h-20">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-center gap-8">
         <Nav itemsList={links}></Nav>
 
