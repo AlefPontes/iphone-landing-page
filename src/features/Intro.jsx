@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../components/Button';
 import Title from '../components/Title';
-import Cards from '../components/Card';
+import Cards from '../components/Cards';
 
 const specs = [
   {
@@ -34,6 +34,7 @@ const Intro = () => {
           O design mais refinado que já criamos. Titânio de grau aeroespacial.
           Chip A18 Pro. Sistema de câmera Pro revolucionário.
         </p>
+
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center mb-16">
           <Button children={'Compre Agora'} size="lg"></Button>
           <Button
@@ -42,9 +43,10 @@ const Intro = () => {
             size="lg"
           ></Button>
         </div>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-6 mx-auto max-w-5xl'>
+          <Cards specs={specs} padding='px-2 py-4'></Cards>
+        </div>
       </div>
-
-      <Cards specs={specs}></Cards>
     </section>
   );
 };

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Button from '../components/Button';
+import Title from '../components/Title';
 
 const Colors = () => {
   const iphoneModels = [
@@ -114,12 +116,16 @@ const Colors = () => {
       </section>
 
       <section className="flex flex-col items-center py-10">
-        <button className="bg-blue-700 hover:bg-blue-800 cursor-pointer py-4 px-8 rounded-full font-medium transition-all duration-300 hover:scale-105 shadow-md shadow-blue-500/30">
-          Compre agora a partir de R$ 9.299
-        </button>
-        <p className="text-gray-500 text-xs p-3">
-          Ou em até 12x de R$ 774,92 sem juros
-        </p>
+        <Button
+          children={'Compre agora a partir de R$ 9.299'}
+          size="lg"
+        ></Button>
+
+        <Title
+          childrens={'Ou em até 12x de R$ 774,92 sem juros'}
+          variant="text"
+          className="text-xs p-3"
+        ></Title>
       </section>
     </section>
   );
